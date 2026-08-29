@@ -114,22 +114,31 @@ The notebook contains the detailed evaluation results, including precision, reca
 - `heart_disease_prediction.ipynb` — full analysis notebook (EDA, cross-validation, tuning, evaluation, feature importance)
 - `heart_disease_model.joblib` — final trained model, ready to load and reuse
 - `requirements.txt` — Python dependencies
+  
 ## Usage
 
-1. Clone the repository
-git clone <your-repository-url>
-cd heart-disease-prediction
+1. **Clone the repository**
+
 ```bash
-2. Install the dependencies
+git clone https://github.com/FerdousRIAZzz/heart_disease_prediction.git
+cd heart-disease-prediction
+```
+
+2. **Install the dependencies**
+
+```bash
 pip install -r requirements.txt
-3. Run the notebook
+```
+
+3. **Run the notebook**
+
+```bash
 jupyter notebook heart_disease_prediction.ipynb
 ```
+
 You can then run the notebook cells to reproduce the analysis and model training process.
 
-Using the Trained Model
-
-The saved model can also be loaded directly:
+The saved model can also be loaded directly with Python:
 
 ```python
 
