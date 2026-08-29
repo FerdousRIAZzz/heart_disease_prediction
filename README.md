@@ -129,7 +129,9 @@ You can then run the notebook cells to reproduce the analysis and model training
 
 Using the Trained Model
 
-The saved model can also be loaded directly with Python:
+The saved model can also be loaded directly:
+
+```python
 
 import joblib
 import pandas as pd
@@ -158,6 +160,7 @@ probability = model.predict_proba(patient)[0][1]
 
 print("Prediction:", prediction)
 print("Probability:", probability)
+```
 
 ## Next Steps
 
@@ -167,4 +170,5 @@ print("Probability:", probability)
 
 ## Disclaimer
 
-This project is for educational purposes only. It is not a validated medical diagnostic tool and should never be used for real clinical decision-making.
+This project was created for educational and machine learning practice purposes.
+It is not a medical diagnostic tool and should not be used to make medical or clinical decisions.
