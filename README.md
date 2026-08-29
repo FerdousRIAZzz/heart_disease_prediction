@@ -158,3 +158,13 @@ probability = model.predict_proba(patient)[0][1]
 
 print("Prediction:", prediction)
 print("Probability:", probability)
+
+## Next Steps
+
+- Compare against gradient boosting models (XGBoost, LightGBM) with the same cross-validation protocol.
+- Validate on a larger, independently-sourced dataset to test generalization beyond these 302 patients.
+- Build a small interactive demo (e.g. Streamlit) around the saved model.
+
+## Disclaimer
+
+This project is for educational purposes only. It is not a validated medical diagnostic tool and should never be used for real clinical decision-making.
