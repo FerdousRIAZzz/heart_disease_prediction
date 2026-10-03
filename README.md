@@ -1,6 +1,6 @@
 # Heart Disease Prediction
 
-A machine learning project that predicts the likelihood of heart disease based on patient health and clinical measurements.
+A machine learning project that predicts the likelihood of heart disease based on patient health and clinical measurements
 
 The project uses the UCI Cleveland Heart Disease dataset and compares several classification algorithms to find a model that performs well on the available data.
 
